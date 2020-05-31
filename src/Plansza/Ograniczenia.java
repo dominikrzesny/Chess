@@ -7,7 +7,7 @@ public class Ograniczenia {
     public static boolean czySerwerAktywny = false;
     public static Kolor kolorGraczaPosiadajacegoRuch;
     public static Kolor kolorGracza;
-    public static String ipSerwera = "192.168.0.104";
+    public static String ipSerwera = "localhost";
 
     public static boolean czyDozwolonaWspolrzedna(int wspolrzedna){
         return wspolrzedna>=0 && wspolrzedna<64;
